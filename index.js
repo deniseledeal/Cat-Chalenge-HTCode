@@ -16,7 +16,7 @@ const $boxCatMain = document.querySelector('.box-cat-main')
     $boxCatMain.innerHTML = '<img src="cat3.jpeg">'
   }
   function handlePhoto4() {
-    $boxCatMain.innerHTML = '<img src= "cat4.jpg"/>'
+    $boxCatMain.innerHTML = '<img src= "cat4.jpg">'
   }
 
 $photo1.addEventListener('click',handlePhoto1)
