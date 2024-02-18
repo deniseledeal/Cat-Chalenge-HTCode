@@ -7,16 +7,16 @@ const $boxCatMain = document.querySelector('.box-cat-main')
 
 
   function handlePhoto1() {
-     $boxCatMain.innerHTML = '<img src="/cat1.jpg">'
+     $boxCatMain.innerHTML = '<img src="cat1.jpg">'
   }
   function handlePhoto2() {
-    $boxCatMain.innerHTML = '<img src="/cat2.jpg">'
+    $boxCatMain.innerHTML = '<img src="cat2.jpg">'
   }
   function handlePhoto3() {
-    $boxCatMain.innerHTML = '<img src="/cat3.jpeg">'
+    $boxCatMain.innerHTML = '<img src="cat3.jpeg">'
   }
   function handlePhoto4() {
-    $boxCatMain.innerHTML = '<img src= "/cat4.jpg"/>'
+    $boxCatMain.innerHTML = '<img src= "cat4.jpg"/>'
   }
 
 $photo1.addEventListener('click',handlePhoto1)
